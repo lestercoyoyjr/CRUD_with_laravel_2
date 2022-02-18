@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('title');
             $table->string('country');
             $table->decimal('price', 8,2);
+            
             $table->timestamps();
         });
     }
